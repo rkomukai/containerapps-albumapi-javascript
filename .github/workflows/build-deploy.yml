@@ -1,10 +1,10 @@
 name: Trigger auto deployment
 on:
   # 手動実行用トリガー
-  workflow_dispatch:      
-  
+  workflow_dispatch: 
+#Add Env
 env:
-CONTAINER_REGISTRY:　handson01repo666.azurecr.io
+  CONTAINER_REGISTRY: handson01repo666.azurecr.io
 
 jobs:
   build:
