@@ -3,7 +3,7 @@ on:
   # 手動実行用トリガー
   workflow_dispatch: 
 #Add Env
-env:
+env: 
   CONTAINER_REGISTRY: handson01repo666.azurecr.io
 
 jobs:
