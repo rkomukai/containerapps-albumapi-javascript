@@ -2,6 +2,15 @@ name: Trigger auto deployment
 on:
   # 手動実行用トリガー
   workflow_dispatch: 
+  
+    # Add a trigger
+  # 自動実行用トリガー
+  push:
+    branches: 
+      [ main ]
+    paths:
+    - '**'
+  
 #Add Env
 env: 
   CONTAINER_REGISTRY: repo6663a6dd2wsu43my.azurecr.io
